@@ -24,7 +24,7 @@ Array ini disimpan dalam variabel image.<br>
 ```python
 gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 ```
-*Kode ini mengkonversi gambar asli (image) ke dalam format grayscale menggunakan fungsi cvtColor() dari OpenCV.
+* Kode ini mengkonversi gambar asli (image) ke dalam format grayscale menggunakan fungsi cvtColor() dari OpenCV.
 Parameter cv2.COLOR_BGR2GRAY menentukan bahwa kita ingin mengkonversi gambar dari format BGR (Blue, Green, Red) ke dalam format grayscale.
 Hasil konversi disimpan dalam variabel gray.
 
@@ -84,7 +84,7 @@ axs[0].imshow(cv2.cvtColor(image, cv2.COLOR_BGR2RGB))
 axs[0].set_title('Original Image')
 axs[0].axis('off')
 ```
-*Kode ini menampilkan gambar asli (image) pada axes pertama (axs[0]).
+* Kode ini menampilkan gambar asli (image) pada axes pertama (axs[0]).
 Fungsi cvtColor() dari OpenCV digunakan untuk mengkonversi gambar dari format BGR ke format RGB, karena Matplotlib menggunakan format RGB untuk menampilkan gambar.
 Judul gambar diatur menjadi "Original Image" menggunakan fungsi set_title().
 Fungsi axis('off') digunakan untuk menghilangkan axis pada gambar.
@@ -95,7 +95,7 @@ axs[1].imshow(edges, cmap='gray')
 axs[1].set_title('Canny Edge Detection')
 axs[1].axis('off')
 ```
-*Kode ini menampilkan hasil deteksi tepi Canny (edges) pada axes kedua (axs[1]).
+* Kode ini menampilkan hasil deteksi tepi Canny (edges) pada axes kedua (axs[1]).
 Fungsi imshow() digunakan untuk menampilkan gambar, dengan parameter cmap='gray' untuk menampilkan gambar dalam format grayscale.
 Judul gambar diatur menjadi "Canny Edge Detection" menggunakan fungsi set_title().
 Fungsi axis('off') digunakan untuk menghilangkan axis pada gambar.
@@ -106,7 +106,7 @@ axs[2].imshow(cv2.cvtColor(contour_image, cv2.COLOR_BGR2RGB))
 axs[2].set_title('Contours Detection')
 axs[2].axis('off')
 ```
-*Kode ini menampilkan hasil deteksi kontur (contour_image) pada axes ketiga (axs[2]).
+* Kode ini menampilkan hasil deteksi kontur (contour_image) pada axes ketiga (axs[2]).
 Fungsi cvtColor() dari OpenCV digunakan untuk mengkonversi gambar dari format BGR ke format RGB, karena Matplotlib menggunakan format RGB untuk menampilkan gambar.
 Judul gambar diatur menjadi "Contours Detection" menggunakan fungsi set_title().
 Fungsi axis('off') digunakan untuk menghilangkan axis pada gambar.
@@ -115,7 +115,7 @@ Fungsi axis('off') digunakan untuk menghilangkan axis pada gambar.
 ```python
 plt.show()
 ```
-*Kode ini digunakan untuk menampilkan semua gambar yang telah diatur sebelumnya.
+* Kode ini digunakan untuk menampilkan semua gambar yang telah diatur sebelumnya.
 
 ## Maka Output Yang Dihasilkan Seperti Berikut 
 ![image](https://github.com/SalmanAlmuzafar/PA-PC_202231091_SALMAN-ALMUZAFAR_B/assets/169425467/7f248e58-4c17-458d-a281-bf8dda3dc5ca)
